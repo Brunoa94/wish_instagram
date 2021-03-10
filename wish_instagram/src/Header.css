@@ -1,0 +1,131 @@
+.header__navbar{
+    height: 60px;
+    width:100%;
+    display: flex;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    justify-content: center;
+    align-items: center;
+}
+
+.header__icons{
+    width:80%;
+    display: flex;
+    align-items: center;
+}
+
+.instagram__logo img{
+    width:110px;
+}
+
+.instagram__logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex:0.3;
+}
+
+.search__navbar{
+    flex:0.4;
+    display:flex;
+    justify-content: center;
+}
+
+.search__bar{
+    height:20px;
+    background-color: rgb(243, 243, 243, 0.7);
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    padding: 5px;
+    padding-left:7px;
+    padding-right:7px;
+    border: 1px solid rgb(233, 230, 230);
+    width:50%;
+}
+
+.search__bar form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.search__bar form input{
+    width: 80%;
+    outline: none;
+    border: none;
+    background: none;
+    padding-left: 3px;
+}
+
+.search__bar form input::placeholder{
+    color: rgb(172, 172, 172);
+    font: normal 13px Helvetica;
+}
+
+.search__bar form button{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.search__bar .search__icon{
+    color: rgb(172, 172, 172);
+    font-size: 15px;
+}
+
+.search__bar form .cancel__icon{
+    color: rgb(172, 172, 172);
+    margin-left: auto;
+}
+
+.search__bar .search__title{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.search__title span{
+    font: normal 15px Arial;
+    margin-left: 5px;
+    color: rgb(167, 166, 166);
+}
+
+.header__icons .navbar__icons{
+    display:flex;
+    align-items: center;
+    flex:0.3;
+    width:40%;
+    justify-content: center;
+}
+
+.navbar__icon__div{
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+}
+
+.navbar__icon{
+    font-size:25px;
+    margin-left: 15px;
+}
+
+.navbar__icons .avatar__div{
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    padding:2px;
+    cursor: pointer;
+}
+
+.navbar__icons .avatar__div img{
+    height: 25px;
+    border-radius: 50%;
+}
+
+.navbar__icons .avatar__div.active{
+    border: 1px solid black;
+}
+
