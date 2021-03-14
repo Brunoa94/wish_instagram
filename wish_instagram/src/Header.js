@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import { AiOutlineSearch, AiFillHome, AiOutlineHome, AiFillCompass, AiOutlineCompass, AiOutlineHeart, AiFillHeart} from 'react-icons/ai'
 import { MdCancel } from 'react-icons/md'
-import { RiSendPlaneLine, RiSendPlaneFill} from 'react-icons/ri'
+import { RiSendPlaneLine, RiSendPlaneFill } from 'react-icons/ri'
 import If from './If'
 import Avatar from '@material-ui/core/Avatar';
 

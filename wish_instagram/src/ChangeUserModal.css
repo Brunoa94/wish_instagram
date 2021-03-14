@@ -1,0 +1,130 @@
+.modal{
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */   
+}
+
+.modal.active{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users__registered{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position:relative;
+}
+
+.modal__header{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    justify-content: center;
+}
+
+.modal__header .change__account{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 530;
+    font-size:17px
+}
+
+.user__registered{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user__registered .checked{
+    margin-left: auto;
+}
+
+.user__registered span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+    font-weight:540;
+}
+
+.user__registered .checked{
+    font-size: 30px;
+    color: #0095F6;
+}
+
+.users{
+    overflow: scroll;
+    height:150px;
+
+}
+
+.users::-webkit-scrollbar {
+    display: none;
+  }
+
+.users__registered .other__account{
+    position:absolute;
+    bottom:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top: 1px solid darkgray
+}
+
+
+.other__account span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #0095F6;
+    font-weight: 540;
+    cursor:pointer;
+}
+
+.record__account{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position:relative;
+    padding:10px;
+    justify-content: center;
+}
+
+.record__account form{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.record__account form input{
+    margin-bottom: 8px;
+    width:250px;
+    height:30px;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+}
+
+.record__account form input::placeholder{
+    padding:3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.record__account .instagram__logo img{
+    width:170px;
+}
